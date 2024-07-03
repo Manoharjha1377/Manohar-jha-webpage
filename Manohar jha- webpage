@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manohar Jha - Executive Director</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e9f5e9;
+            color: #333;
+        }
+        header {
+            background-color: #004d00;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #006600;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #009900;
+        }
+        section {
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 800px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #004d00;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        img.profile {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin-top: 1rem;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form label {
+            margin: 0.5rem 0 0.2rem;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+        }
+        .contact-form button {
+            padding: 0.7rem;
+            background-color: #004d00;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .timeline {
+            position: relative;
+            margin: 2rem 0;
+            padding: 0;
+            list-style: none;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #ccc;
+            left: 50%;
+            margin-left: -1px;
+        }
+        .timeline-item {
+            position: relative;
+            width: 100%;
+            padding: 1rem;
+            box-sizing: border-box;
+        }
+        .timeline-item::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .timeline-content {
+            padding: 1rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 1rem 0;
+        }
+        .timeline-date {
+            margin: 0;
+            font-size: 0.85rem;
+            color: #777;
+        }
+        @media (min-width: 600px) {
+            .timeline-item {
+                width: 50%;
+            }
+            .timeline-item:nth-child(odd) {
+                left: 0;
+            }
+            .timeline-item:nth-child(even) {
+                left: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Manohar Jha</h1>
+        <p>Executive Director of M/s Mathills Private Limited</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home">
+        <h2>Welcome</h2>
+        <img src="/mnt/data/file-xfq3Oz8jxfbo4r4aWTgICfHd" alt="Manohar Jha" class="profile">
+        <p>Welcome to my personal webpage! I am Manohar Jha, the Executive Director of M/s Mathills Private Limited and the majority shareholder of Mega Mart Ventures Private Limited. Here you can learn more about my professional journey, projects, and get in touch with me.</p>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p><strong>Born:</strong> 25.09.1995</p>
+        <p><strong>Age:</strong> 28</p>
+        <p>I am Manohar Jha, the Executive Director of M/s Mathills Private Limited and the majority shareholder of Mega Mart Ventures Private Limited. With a strong vision and leadership, I oversee strategic initiatives and drive growth for both companies.</p>
+        <h3>Professional Experience</h3>
+        <p>As the Executive Director of Mathills Private Limited, I have spearheaded the launch of the UPBITE brand and have been instrumental in the strategic expansion of Mega Mart Ventures Private Limited. My role involves overseeing operations, strategic planning, and ensuring sustained growth for the companies.</p>
+        <h3>Achievements</h3>
+        <ul>
+            <li>Successfully launched the UPBITE brand under Mathills Private Limited</li>
+            <li>Strategically expanded Mega Mart Ventures Private Limited</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>As an executive director, I have been involved in numerous successful projects. Below are some highlights:</p>
+        <h3>UPBITE Brand Launch</h3>
+        <p>Led the launch of the UPBITE brand, focusing on healthy snacking options. This project involved market research, product development, and strategic marketing campaigns.</p>
+        <h3>Expansion of Mega Mart Ventures</h3>
+        <p>Played a key role in expanding Mega Mart Ventures Private Limited, increasing its market presence and establishing it as a leading retail chain.</p>
+    </section>
+    <section id="timeline">
+        <h2>Professional Timeline</h2>
+        <ul class="timeline">
+            <li class="timeline-item">
+                <h3 class="timeline-date">1995</h3>
+                <div class="timeline-content">
+                    <h4>Born</h4>
+                    <p>Born on 25th September 1995.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <h3 class="timeline-date">2024</h3>
+                <div class="timeline-content">
+                    <h4>Executive Director of Mathills</h4>
+                    <p>Appointed as the Executive Director of Mathills Private Limited.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <h3 class="timeline-date">2024</h3>
+                <div class="timeline-content">
+                    <h4>Majority Shareholder of Mega Mart Ventures</h4>
+                    <p>Became the majority shareholder of Mega Mart Ventures Private Limited.</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <p>Here’s what people are saying about me:</p>
+        <blockquote>
+            <p>"Manohar's leadership has been instrumental in the success of our ventures. His strategic vision and dedication are unparalleled." - Vinay Pandey, Director, Mega Mart Ventures Private Limited</p>
+        </blockquote>
+        <blockquote>
+            <p>"Working with Manohar has been a transformative experience. His insights and approach to business are truly remarkable." - Vinay Pandey</p>
+        </blockquote>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you would like to get in touch with me, please use the contact information below or fill out the contact form.</p>
+        <p><strong>Email:</strong> manohar@upbitefoods.com</p>
+        <p><strong>Phone:</strong> 8802866597</p>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Manohar Jha. All rights reserved.</p>
